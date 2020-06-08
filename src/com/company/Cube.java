@@ -5,12 +5,6 @@
  *
  * Copyright Skryp Andriy
  *
- *  1. Constructor.
- *  2. Getters/Setters.
- *  3. 5 methods.
- *  4. Override toString() method
- *  5. Override hash() and equals() methods.
- *
  */
 
 package com.company;
@@ -81,14 +75,14 @@ public class Cube {
     // 4. toString() method:
 
     public String toString() {
-        return "Cube" +
-                "\nside = " + side +
-                "\narea = " + getArea() +
-                "\nvolume = " + getVolume() +
-                "\ndiagonal = " + getDiagonal() +
-                "\nangle between faces of a cube = "
+        return "Cube{" +
+                "side=" + side +
+                ", area=" + getArea() +
+                ", volume=" + getVolume() +
+                ", diagonal=" + getDiagonal() +
+                ", angle between faces of a cube="
                 + getAngleBetweenFaces() +
-                "\nradius of the described sphere = "
+                ", radius of the described sphere="
                 + getRadiusOfTheDescribedSphere();
     }
 

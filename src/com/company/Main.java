@@ -5,6 +5,12 @@
  *
  * Copyright Skryp Andriy
  *
+ *  1. Constructor.
+ *  2. Getters/Setters.
+ *  3. 5 methods.
+ *  4. Override toString() method
+ *  5. Override hash() and equals() methods.
+ *
  */
 
 package com.company;
@@ -17,7 +23,7 @@ public class Main {
 
         myCube.setSide(4);
 
-        System.out.println(myCube);
+        System.out.println(myCube.toString());
 
     }
 }
