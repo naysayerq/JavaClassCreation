@@ -54,7 +54,7 @@ public class Cube {
         return (this.getSide() * this.getSide());
     }
 
-    // Seconds - Volume
+    // Second - Volume
 
     public int getVolume() {
         return (this.getSide() * this.getSide() * this.getSide());
